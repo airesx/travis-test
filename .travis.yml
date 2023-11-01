@@ -1,4 +1,3 @@
-language: ruby
-rvm:
- - 2.2
- - jruby
+language: python install:
+- pip3 install flask script:
+- python3 ./flaskapp/some_app.py
